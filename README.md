@@ -317,10 +317,3 @@ Output: relevant_business_ids_and_reviews_clean_food.json
  Output: Preprocessed_one_cat_bow.tsv
 
 
-11.	The final step is to build the classifier model and validate it. We have followed the approach of KNN classification with 10-fold validation. 
-
-	Name: preprocessing_one_cat.py
-	Input: preprocessed_one_cat_bow.tsv
-
-12.	 The other approach is running our classification model on data set of reduced dimensionality.  So we extracted the random features from both the files generated in step 10.
-
